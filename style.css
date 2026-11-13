@@ -1,0 +1,17 @@
+/* Ensure zero horizontal overflow and crisp rendering on 360px screens */
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+            background-color: #FAF6F1;
+            color: #1F1612;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        .luxury-shadow {
+            box-shadow: 0 10px 30px -10px rgba(31, 22, 18, 0.08);
+        }
+
+        .gold-ring {
+            box-shadow: 0 0 0 3px #FAF6F1, 0 0 0 5px #B8864B;
+        }
